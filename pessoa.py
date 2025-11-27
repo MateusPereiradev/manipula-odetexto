@@ -1,5 +1,5 @@
 nome= str(input('Digite aqui seu nome completo:')).strip().upper()
-print('SILVA' in nome)
+print(f'O nome tem em algum lugar SILVA? {'SILVA' in nome}')
 
 '''
 Crie um programa que leia o nome de uma pessoa e diga se ela tem 'SILVA' no nome.
