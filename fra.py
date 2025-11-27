@@ -1,7 +1,7 @@
-frase= str(input('Digite aqui uma frase:')).strip().lower()
-print(f'Referente a frase, quantas vezes aparece a letra a: {frase.count('a')}')
-print(f'A primeira letra a aparece: {frase.find('a')+1}')
-print(f'A ultima letra a aparece: {frase.rfind('a')+1}')
+frase= str(input('Digite aqui uma frase qualquer:')).strip().upper()
+print(f'Referente a frase, a letra A aparece {frase.count('A')}')
+print(f'Referente a frase a letra A aparece na {frase.find('A')+1} posição')
+print(f'Referente a frase a letra A aparece na ultima vez na posição {frase.rfind('A')+1}')
 '''
 Faça um programa que leia uma frase pelo teclado e mostre:
 >Quantas vez aparece a letra 'A'
