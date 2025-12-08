@@ -1,7 +1,6 @@
-nome= str(input('Digite aqui seu nome completo:')).strip()
-nome_lista= nome.split()
-print(f'O primeiro nome é {nome_lista[0]}')
-print(f'O último nome é {nome_lista[-1]}')
+nome= str(input('Digite aqui seu nome completo:')).strip().upper().split()
+print(f'Qual é o primeiro nome? {nome[0]}')
+print(f'Qual é o último nome? {nome[-1]}')
 
 
 '''
