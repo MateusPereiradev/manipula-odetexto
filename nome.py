@@ -1,10 +1,10 @@
-nome= str(input('Digite aqui seu nome completo:')).strip().upper()
-print(f'O nome com todas as letras maiúsculas: {nome.upper()}')
-print(f'O nome com todas as letras minúsculas: {nome.lower()}')
-print(f'Quantas letras ao todo sem considerar espaços? {len(nome.replace(' ',''))}')
+nome= str(input('Digite aqui seu nome completo:')).strip()
+print(f'Seu nome em maiúsculas é {nome.upper()}!')
+print(f'Seu nome em minúsculas é {nome.lower()}!')
+print(f'Seu nome tem ao todo sem considerar espaços {len(nome.replace(' ',''))} letras!')
 nome_lista= nome.split()
-print(f'Quantas letras tem o primeiro nome? {len(nome_lista[0])}')
-print('Fim do programa de manipular nome!')
+print(f'Seu primeiro nome tem {len(nome_lista[0])} letras!')
+print('Fim do programa!')
 
 '''
 Crie um programa que leia o nome completo de uma pessoa e mostre:
