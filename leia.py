@@ -1,6 +1,6 @@
-nome= str(input('Digite aqui seu nome completo:')).strip().upper().split()
-print(f'Qual o primeiro nome? {nome[0]}')
-print(f'Qual o último nome? {nome[-1]}')
+nome= str(input('Digite aqui seu nome completo:')).strip().split()
+print(f'O primeiro nome é {nome[0]}!')
+print(f'O último nome é {nome[-1]}!')
 print('Fim do programa!')
 '''
 Faça um programa que leia o nome completo de uma pessoa, mostrando
